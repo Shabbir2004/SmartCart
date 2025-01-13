@@ -1,0 +1,9 @@
+[
+  {
+    "barcode": "123456789012",
+    "rfid": "A123456789",
+    "name": "Apple iPhone 13",
+    "price": 65000,
+    "imageUrl": "http://localhost:3000/iphone.jpg"
+  }
+]

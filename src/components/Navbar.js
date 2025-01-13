@@ -75,7 +75,7 @@ const Navbar = () => {
           <div className="absolute right-0 mt-2 w-64 bg-white shadow-lg rounded-md z-50">
             <div className="relative">
               <a
-                href="#"
+               
                 onClick={(e) => {
                   e.preventDefault();
                   handleCategoryClick('electronics');
@@ -86,17 +86,17 @@ const Navbar = () => {
               </a>
               {activeCategory === 'electronics' && (
                 <div className="absolute left-full top-0 mt-2 w-48 bg-white shadow-lg rounded-md">
-                  <a href="/electronics/laptop" className="block px-4 py-2 text-gray-700 hover:bg-gray-100 transition">Laptop</a>
-                  <a href="/electronics/mobile" className="block px-4 py-2 text-gray-700 hover:bg-gray-100 transition">Mobile</a>
-                  <a href="/electronics/television" className="block px-4 py-2 text-gray-700 hover:bg-gray-100 transition">Television</a>
-                  <a href="/electronics/speakers" className="block px-4 py-2 text-gray-700 hover:bg-gray-100 transition">Speakers</a>
+                  <a className="block px-4 py-2 text-gray-700 hover:bg-gray-100 transition">Laptop</a>
+                  <a className="block px-4 py-2 text-gray-700 hover:bg-gray-100 transition">Mobile</a>
+                  <a className="block px-4 py-2 text-gray-700 hover:bg-gray-100 transition">Television</a>
+                  <a className="block px-4 py-2 text-gray-700 hover:bg-gray-100 transition">Speakers</a>
                 </div>
               )}
             </div>
 
             <div className="relative">
               <a
-                href="#"
+               
                 onClick={(e) => {
                   e.preventDefault();
                   handleCategoryClick('kids-wear');
@@ -107,17 +107,17 @@ const Navbar = () => {
               </a>
               {activeCategory === 'kids-wear' && (
                 <div className="absolute left-full top-0 mt-2 w-48 bg-white shadow-lg rounded-md">
-                  <a href="/kids-wear/innerwear" className="block px-4 py-2 text-gray-700 hover:bg-gray-100 transition">Innerwear</a>
-                  <a href="/kids-wear/shirts" className="block px-4 py-2 text-gray-700 hover:bg-gray-100 transition">Shirts</a>
-                  <a href="/kids-wear/pants" className="block px-4 py-2 text-gray-700 hover:bg-gray-100 transition">Pants</a>
-                  <a href="/kids-wear/trousers" className="block px-4 py-2 text-gray-700 hover:bg-gray-100 transition">Trousers</a>
+                  <a className="block px-4 py-2 text-gray-700 hover:bg-gray-100 transition">Innerwear</a>
+                  <a className="block px-4 py-2 text-gray-700 hover:bg-gray-100 transition">Shirts</a>
+                  <a className="block px-4 py-2 text-gray-700 hover:bg-gray-100 transition">Pants</a>
+                  <a className="block px-4 py-2 text-gray-700 hover:bg-gray-100 transition">Trousers</a>
                 </div>
               )}
             </div>
 
             <div className="relative">
               <a
-                href="#"
+              
                 onClick={(e) => {
                   e.preventDefault();
                   handleCategoryClick('beauty');
@@ -128,18 +128,18 @@ const Navbar = () => {
               </a>
               {activeCategory === 'beauty' && (
                 <div className="absolute left-full top-0 mt-2 w-48 bg-white shadow-lg rounded-md">
-                  <a href="/beauty/makeup" className="block px-4 py-2 text-gray-700 hover:bg-gray-100 transition">Makeup</a>
-                  <a href="/beauty/lashes" className="block px-4 py-2 text-gray-700 hover:bg-gray-100 transition">Lashes</a>
-                  <a href="/beauty/brushes" className="block px-4 py-2 text-gray-700 hover:bg-gray-100 transition">Brushes</a>
-                  <a href="/beauty/eyeliners" className="block px-4 py-2 text-gray-700 hover:bg-gray-100 transition">Eyeliners</a>
-                  <a href="/beauty/kajals" className="block px-4 py-2 text-gray-700 hover:bg-gray-100 transition">Kajals</a>
+                  <a className="block px-4 py-2 text-gray-700 hover:bg-gray-100 transition">Makeup</a>
+                  <a className="block px-4 py-2 text-gray-700 hover:bg-gray-100 transition">Lashes</a>
+                  <a className="block px-4 py-2 text-gray-700 hover:bg-gray-100 transition">Brushes</a>
+                  <a className="block px-4 py-2 text-gray-700 hover:bg-gray-100 transition">Eyeliners</a>
+                  <a className="block px-4 py-2 text-gray-700 hover:bg-gray-100 transition">Kajals</a>
                 </div>
               )}
             </div>
 
             <div className="relative">
               <a
-                href="#"
+               
                 onClick={(e) => {
                   e.preventDefault();
                   handleCategoryClick('home-decor');
@@ -150,17 +150,17 @@ const Navbar = () => {
               </a>
               {activeCategory === 'home-decor' && (
                 <div className="absolute left-full top-0 mt-2 w-48 bg-white shadow-lg rounded-md">
-                  <a href="/home-decor/frames" className="block px-4 py-2 text-gray-700 hover:bg-gray-100 transition">Frames</a>
-                  <a href="/home-decor/showpiece" className="block px-4 py-2 text-gray-700 hover:bg-gray-100 transition">Showpiece</a>
-                  <a href="/home-decor/table-lamp" className="block px-4 py-2 text-gray-700 hover:bg-gray-100 transition">Table Lamp</a>
-                  <a href="/home-decor/lights" className="block px-4 py-2 text-gray-700 hover:bg-gray-100 transition">Lights</a>
+                  <a className="block px-4 py-2 text-gray-700 hover:bg-gray-100 transition">Frames</a>
+                  <a className="block px-4 py-2 text-gray-700 hover:bg-gray-100 transition">Showpiece</a>
+                  <a className="block px-4 py-2 text-gray-700 hover:bg-gray-100 transition">Table Lamp</a>
+                  <a className="block px-4 py-2 text-gray-700 hover:bg-gray-100 transition">Lights</a>
                 </div>
               )}
             </div>
 
             <div className="relative">
               <a
-                href="#"
+              
                 onClick={(e) => {
                   e.preventDefault();
                   handleCategoryClick('sports');
@@ -171,10 +171,10 @@ const Navbar = () => {
               </a>
               {activeCategory === 'sports' && (
                 <div className="absolute left-full top-0 mt-2 w-48 bg-white shadow-lg rounded-md">
-                  <a href="/sports/yoga-mat" className="block px-4 py-2 text-gray-700 hover:bg-gray-100 transition">Yoga Mat</a>
-                  <a href="/sports/carrom" className="block px-4 py-2 text-gray-700 hover:bg-gray-100 transition">Carrom</a>
-                  <a href="/sports/chess" className="block px-4 py-2 text-gray-700 hover:bg-gray-100 transition">Chess</a>
-                  <a href="/sports/badminton-rackets" className="block px-4 py-2 text-gray-700 hover:bg-gray-100 transition">Badminton Rackets</a>
+                  <a className="block px-4 py-2 text-gray-700 hover:bg-gray-100 transition">Yoga Mat</a>
+                  <a className="block px-4 py-2 text-gray-700 hover:bg-gray-100 transition">Carrom</a>
+                  <a className="block px-4 py-2 text-gray-700 hover:bg-gray-100 transition">Chess</a>
+                  <a className="block px-4 py-2 text-gray-700 hover:bg-gray-100 transition">Badminton Rackets</a>
                 </div>
               )}
             </div>
@@ -192,10 +192,10 @@ const Navbar = () => {
               </a>
               {activeCategory === 'stationery' && (
                 <div className="absolute left-full top-0 mt-2 w-48 bg-white shadow-lg rounded-md">
-                  <a href="/stationery/books" className="block px-4 py-2 text-gray-700 hover:bg-gray-100 transition">Books</a>
-                  <a href="/stationery/pens" className="block px-4 py-2 text-gray-700 hover:bg-gray-100 transition">Pens</a>
-                  <a href="/stationery/pencils" className="block px-4 py-2 text-gray-700 hover:bg-gray-100 transition">Pencils</a>
-                  <a href="/stationery/papers" className="block px-4 py-2 text-gray-700 hover:bg-gray-100 transition">Papers</a>
+                  <a className="block px-4 py-2 text-gray-700 hover:bg-gray-100 transition">Books</a>
+                  <a className="block px-4 py-2 text-gray-700 hover:bg-gray-100 transition">Pens</a>
+                  <a className="block px-4 py-2 text-gray-700 hover:bg-gray-100 transition">Pencils</a>
+                  <a className="block px-4 py-2 text-gray-700 hover:bg-gray-100 transition">Papers</a>
                 </div>
               )}
             </div>
